@@ -9,7 +9,11 @@ export default {
   methods: {
     showProducts() {
       this.$router.push({ name: 'products' })
-    }
+    },
+  },
+  validate(input) {
+    console.log(input);
+    return true;
   }
 }
 </script>
