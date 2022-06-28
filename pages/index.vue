@@ -1,6 +1,6 @@
 <template>
   <div class="w-1/3 mt-6 mx-auto">
-    <button class="bg-gray-200 p-6" @click="showProducts">Products</button>
+    <button class="bg-gray-200 p-6" @click="showProducts">Show Products</button>
   </div>
 </template>
 
